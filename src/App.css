@@ -1,0 +1,112 @@
+/* styles.css */
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.bi-newspaper{
+  padding-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffbb33;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-outline-light {
+  border-color: #ffbb33;
+  color: #ffbb33;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffbb33;
+  color: #fff;
+}
+
+.custom-img {
+  height: 200px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the box while maintaining its aspect ratio */
+  width: 100%; /* Ensure the image takes up the full width of the container */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.news-card {  
+  width: 100%;
+  max-width: 400px;
+  margin-right: 3px;
+}
+
+/* Custom Button Styling */
+.btn-custom {
+  background-color: #343a40; /* Dark color */
+  color: #fff;
+  border-radius: 50px; /* Rounded buttons */
+  padding: 10px 25px; /* Larger padding */
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Hover effects for the button */
+.btn-custom:hover {
+  background-color: #495057; /* Slightly lighter on hover */
+  color: #f8f9fa;
+  transform: scale(1.05); /* Slight scaling effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+/* Disable state for buttons */
+.btn-custom:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/* Add a hover transition for the buttons */
+.btn-custom:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(40, 167, 69, 0.7); /* Green glow on focus */
+}
+
+/* Customize the spinner size */
+.spinner-lg {
+  width: 3rem; /* Increase the size of the spinner */
+  height: 3rem; /* Increase the size of the spinner */
+  border-width: 0.25rem; /* Thicker border for more visibility */
+}
+
+/* Add a pulsating effect */
+.spinner-border {
+  animation: spin 1s linear infinite;
+}
+
+/* Define the spin animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.headline{
+  margin-top: 100px;
+}
+
+
+
