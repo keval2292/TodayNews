@@ -32,7 +32,7 @@ export default class NewsItems extends Component {
                     {/* Badge positioned in the top-right corner */}
                     {isCurrentDate && (
                         <span className="badge bg-danger position-absolute top-0 end-0 m-2">
-                            Today
+                            {Today}
                         </span>
                     )}
                     <img
