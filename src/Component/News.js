@@ -98,7 +98,7 @@ export default class News extends Component {
                         return (
                             <div className="col-md-4 d-flex" key={id}>
                                 <NewsItems
-                                    title={element.title ? element.title.slice(0, 65) : "No title"}
+                                    title={element.title ? element.title.slice(0, 65) : "No title..."}
                                     description={element.description ? element.description.slice(0, 110) : "No description"}
                                     imgUrl={element.urlToImage ? element.urlToImage : "./newsImage.jpg"}
                                     newsUrl={element.url}
